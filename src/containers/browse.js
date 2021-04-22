@@ -77,7 +77,11 @@ export function BrowseContainer({ slides }) {
             City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a
             futile attempt to feel like he's part of the world around him.
           </Header.Text>
-          <Header.PlayButton>Play</Header.PlayButton>
+          <Player>
+            {/* <Header.PlayButton>Play</Header.PlayButton> */}
+            <Player.Button />
+            <Player.Video src="/videos/bunny.mp4" />
+          </Player>
         </Header.Feature>
       </Header>
 
