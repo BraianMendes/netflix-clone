@@ -10,7 +10,7 @@
 
 <img src="https://img.shields.io/badge/Made%20With-React.js-61DAFB?logo=react&style=for-the-badge">
 <img src="https://img.shields.io/badge/Made%20With-Firebase-FFCA28?logo=firebase&style=for-the-badge">
-<img src="https://img.shields.io/badge/Made%20With-Styled-Components-DB7093?logo=styled-components&style=for-the-badge">
+<img src="https://img.shields.io/badge/Made%20With-StyledComponents-DB7093?logo=styled-components&style=for-the-badge">
 <img src="https://img.shields.io/badge/Made%20With-Yarn-2C8EBB?logo=yarn&style=for-the-badge">
 
 </p>
