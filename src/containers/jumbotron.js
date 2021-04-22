@@ -1,10 +1,10 @@
-import React from "react";
-import jumboData from './fixtures/jumbo'
-import Jumbotron from './components/jumbotron'
+import React from 'react';
+import jumboData from '../fixtures/jumbo';
+import { Jumbotron } from '../components';
 
-export function App() {
+export function JumbotronContainer() {
   return (
-    <Jumbotron. Container>
+    <Jumbotron.Container>
       {jumboData.map((item) => (
         <Jumbotron key={item.id} direction={item.direction}>
           <Jumbotron.Pane>
@@ -16,6 +16,6 @@ export function App() {
           </Jumbotron.Pane>
         </Jumbotron>
       ))}
-    </Jumbotron. Container>
-    );
+    </Jumbotron.Container>
+  );
 }
