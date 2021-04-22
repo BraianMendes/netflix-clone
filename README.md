@@ -20,6 +20,8 @@
 
 ### 🏠 You can Access here [Netflix React Clone](https://netflix-portfolio-braian.vercel.app/)
 
+![Preview](netflix-preview.png?raw=true)
+
 
 <h2>Required</h2>
 
