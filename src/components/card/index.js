@@ -17,6 +17,7 @@ import {
   Item,
   Image,
 } from './styles/card';
+import { Player } from '../index';
 
 export const FeatureContext = createContext();
 
@@ -94,7 +95,10 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
           </FeatureText>
         </Group>
 
-        {children}
+        <Player>
+          <Player.Button />
+          <Player.Video src={itemFeature.video} />
+        </Player>
       </Content>
     </Feature>
   ) : null;

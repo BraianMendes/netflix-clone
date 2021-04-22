@@ -17,12 +17,14 @@ export const Overlay = styled.div`
 
 export const Inner = styled.div`
   position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: auto;
-  video {
-    height: 100%;
-    width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  iframe {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 80%;
+    width: 97%;
   }
 `;
 

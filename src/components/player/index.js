@@ -21,9 +21,13 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
     ? ReactDOM.createPortal(
         <Overlay onClick={() => setShowPlayer(false)} data-testid="player">
           <Inner>
-            <video id="netflix-player" controls>
-              <source src={src} type="video/mp4" />
-            </video>
+            <iframe
+              width="600"
+              height="600"
+              src={src + '?autoplay=1&mute=1'}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <Close />
           </Inner>
         </Overlay>,
