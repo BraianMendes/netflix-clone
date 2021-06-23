@@ -80,7 +80,7 @@ export function BrowseContainer({ slides }) {
           <Player>
             {/* <Header.PlayButton>Play</Header.PlayButton> */}
             <Player.Button />
-            <Player.Video src="/videos/bunny.mp4" />
+            <Player.Video src="https://www.youtube.com/embed/zAGVQLHvwOY" />
           </Player>
         </Header.Feature>
       </Header>
